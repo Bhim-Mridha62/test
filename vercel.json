@@ -1,8 +1,9 @@
 {
-  "functions": {
-    "api/cron/route.ts": {
-      "runtime": "edge",
-      "schedule": "30 5 * * *"
+  "cron": [
+    {
+      "path": "/api/cron",
+      "schedule": "50 5 * * *",
+      "timezone": "Asia/Kolkata"
     }
-  }
+  ]
 }
