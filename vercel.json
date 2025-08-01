@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/cron/route.ts": {
+      "runtime": "edge",
+      "schedule": "30 5 * * *"
+    }
+  }
+}
